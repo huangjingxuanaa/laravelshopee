@@ -1,0 +1,26 @@
+{
+    "name": "huaqiang/laravelshopee",
+    "description": "laravel shopee sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huaqiang",
+            "email": "237383368@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Huaqiang\\LaravelShopee\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel": {
+            "providers": [
+                "Huaqiang\\LaravelShopee\\LaravelshopeeServiceProvider"
+            ]
+        }
+    }
+}
