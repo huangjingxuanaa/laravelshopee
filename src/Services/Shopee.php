@@ -44,10 +44,14 @@ class Shopee
 
     /**
      * @param string $client
+     *
+     * @return $this
      */
     public function setClient(string $client = 'default')
     {
         $this->_config = config('shopee', [])[$client] ?? [];
+
+        return $this;
     }
 
     /**
