@@ -22,5 +22,6 @@
                 "Huaqiang\\LaravelShopee\\LaravelshopeeServiceProvider"
             ]
         }
-    }
+    },
+    "version": "1.0"
 }
